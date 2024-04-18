@@ -36,6 +36,10 @@ function getUserDataFromReq(req){
     })
 }
 
+app.get("/",(req,res)=>{
+    res.json("Backend Hosted Successfully");
+)};
+
 app.get("/test",(req,res)=>{
     res.json("Test Ok")
 });
